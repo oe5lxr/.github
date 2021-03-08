@@ -1,0 +1,84 @@
+- name: "conclusion: declined"
+  color: "940404"
+  description: Will not be worked on.
+  aliases:
+    - wontfix
+- name: "conclusion: duplicate"
+  color: "ff0000"
+  description: Has already been submitted.
+  aliases:
+    - duplicate
+- name: "conclusion: invalid"
+  color: "ff0000"
+  description: Off topic or not a bug.
+  aliases:
+    - invalid
+- name: "help wanted"
+  color: "ffa200"
+  description: Assistance from the community is especially welcome.
+- name: "priority: high"
+  color: "ffa200"
+  description: ""
+- name: "priority: low"
+  color: "c0c0c0"
+  description: ""
+- name: "status: changes requested"
+  color: "ffa200"
+  description: Changes to the PR are required before merging.
+- name: "status: in progress"
+  color: "0000ff"
+  description: Work is in progress on this.
+- name: "status: on hold"
+  color: "940404"
+  description: Do not proceed at this time.
+- name: "status: waiting for information"
+  color: "ffff00"
+  description: More information must be provided before work can proceed.
+- name: "status: blocked"
+  color: "940404"
+  description: Progress on this is prevented by an external cause.
+- name: "status: moved"
+  color: "000080"
+  description: This item was moved to another repository.
+- name: "topic: ci"
+  color: "00ffff"
+  description: Continuous integration for this repository.
+- name: "topic: firmware"
+  color: "00ffff"
+  description: Code that runs on an embedded system.
+- name: "topic: software"
+  color: "00ffff"
+  description: Code that runs on a PC.
+- name: "topic: mechanics"
+  color: "00ffff"
+  description: Mechanical components of the project.
+- name: "topic: electronics"
+  color: "00ffff"
+  description: Electronics components of the project.
+- name: "topic: documentation"
+  color: "00ffff"
+  description: Documentation for the project.
+  aliases:
+    - documentation
+- name: "topic: fpga"
+  color: "00ffff"
+  description: "FPGAs: HDL code, simulation, verification, and synthesis."
+- name: "type: bug"
+  color: "ff0000"
+  description: ""
+- name: "type: enhancement"
+  color: "008000"
+  description: PR to improve the project.
+  aliases:
+    - enhancement
+- name: "type: feature request"
+  color: "008000"
+  description: Issue requesting a new feature to be added.
+- name: "type: support"
+  color: "ffff00"
+  description: Request for help using the project.
+  aliases:
+    - question
+- name: "type: priority support"
+  color: "ffff00"
+  description: Guaranteed response within a workday.
